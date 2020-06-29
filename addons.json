@@ -196,5 +196,14 @@
     ],
     "source-code": "https://github.com/BetterGUI-MC/World-And-Region/",
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/World%20And%20Region/lastSuccessfulBuild/artifact/target/World-And-Region.jar"
+  },
+  "RealColor": {
+    "version": "1.0",
+    "description": "RGB color support",
+    "authors": [
+      "HSGamer"
+    ],
+    "source-code": "https://github.com/BetterGUI-MC/RealColor/",
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/job/RealColor/lastSuccessfulBuild/artifact/target/RealColor.jar"
   }
 }
