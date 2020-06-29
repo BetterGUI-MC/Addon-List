@@ -6,7 +6,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/AdvancedCooldown/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/AdvancedCooldown/lastSuccessfulBuild/artifact/target/AdvancedCooldown-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/AdvancedCooldown/lastSuccessfulBuild/artifact/target/AdvancedCooldown-1.0-SNAPSHOT.jar"
   },
   "AnvilGUI": {
     "version": "1.0-SNAPSHOT",
@@ -15,7 +15,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/AnvilGUI/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/AnvilGUI/lastSuccessfulBuild/artifact/target/AnvilGUI-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/AnvilGUI/lastSuccessfulBuild/artifact/target/AnvilGUI-1.0-SNAPSHOT.jar"
   },
   "ASCII-Placeholders": {
     "version": "1.1",
@@ -24,7 +24,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ASCII-Placeholders/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ASCII-Placeholders/lastSuccessfulBuild/artifact/target/ASCII-Placeholders.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ASCII-Placeholders/lastSuccessfulBuild/artifact/target/ASCII-Placeholders.jar"
   },
   "BetterMaterial": {
     "version": "1.0-SNAPSHOT",
@@ -33,7 +33,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/BetterMaterial/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/BetterMaterial/lastSuccessfulBuild/artifact/target/BetterMaterial-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/BetterMaterial/lastSuccessfulBuild/artifact/target/BetterMaterial-1.0-SNAPSHOT.jar"
   },
   "BlockListener": {
     "version": "1.0-SNAPSHOT",
@@ -42,7 +42,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/BlockListener/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/BlockListener/lastSuccessfulBuild/artifact/target/BlockListener-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/BlockListener/lastSuccessfulBuild/artifact/target/BlockListener-1.0-SNAPSHOT.jar"
   },
   "BungeeLink": {
     "version": "1.0",
@@ -51,7 +51,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/BungeeLink/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/BungeeLink/lastSuccessfulBuild/artifact/target/BungeeLink.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/BungeeLink/lastSuccessfulBuild/artifact/target/BungeeLink.jar"
   },
   "CommandOverride": {
     "version": "1.2",
@@ -60,7 +60,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/CommandOverride/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/CommandOverride/lastSuccessfulBuild/artifact/target/CommandOverride.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/CommandOverride/lastSuccessfulBuild/artifact/target/CommandOverride.jar"
   },
   "ComplexTextSender": {
     "version": "1.0-SNAPSHOT",
@@ -69,7 +69,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ComplexTextSender/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ComplexTextSender/lastSuccessfulBuild/artifact/target/ComplexTextSender-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ComplexTextSender/lastSuccessfulBuild/artifact/target/ComplexTextSender-1.0-SNAPSHOT.jar"
   },
   "ID-Material": {
     "version": "1.0-SNAPSHOT",
@@ -78,7 +78,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ID-Material/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ID-Material/lastSuccessfulBuild/artifact/target/ID-Material-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ID-Material/lastSuccessfulBuild/artifact/target/ID-Material-1.0-SNAPSHOT.jar"
   },
   "ItemGotcha": {
     "version": "1.3",
@@ -87,7 +87,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ItemGotcha/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ItemGotcha/lastSuccessfulBuild/artifact/target/ItemGotcha.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ItemGotcha/lastSuccessfulBuild/artifact/target/ItemGotcha.jar"
   },
   "ItemListener": {
     "version": "1.0-SNAPSHOT",
@@ -96,7 +96,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ItemListener/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ItemListener/lastSuccessfulBuild/artifact/target/ItemListener-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ItemListener/lastSuccessfulBuild/artifact/target/ItemListener-1.0-SNAPSHOT.jar"
   },
   "NBT-Support": {
     "version": "1.1",
@@ -105,7 +105,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/NBT-Support/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NBT-Support/lastSuccessfulBuild/artifact/target/NBT-Support.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NBT-Support/lastSuccessfulBuild/artifact/target/NBT-Support.jar"
   },
   "NoteBlock": {
     "version": "1.0-SNAPSHOT",
@@ -114,7 +114,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/NoteBlock/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NoteBlock/lastSuccessfulBuild/artifact/target/NoteBlock-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NoteBlock/lastSuccessfulBuild/artifact/target/NoteBlock-1.0-SNAPSHOT.jar"
   },
   "NPC-Opener": {
     "version": "1.0-SNAPSHOT",
@@ -123,7 +123,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/NPC-Opener/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NPC-Opener/lastSuccessfulBuild/artifact/target/NPC-Opener.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NPC-Opener/lastSuccessfulBuild/artifact/target/NPC-Opener.jar"
   },
   "OptEcoBridge": {
     "version": "1.1",
@@ -132,7 +132,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/OptEcoBridge/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/OptEcoBridge/lastSuccessfulBuild/artifact/target/OptEcoBridge.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/OptEcoBridge/lastSuccessfulBuild/artifact/target/OptEcoBridge.jar"
   },
   "PlayerPointsBridge": {
     "version": "1.0-SNAPSHOT",
@@ -141,7 +141,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/PlayerPointsBridge/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/PlayerPointsBridge/lastSuccessfulBuild/artifact/target/PlayerPointsBridge-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/PlayerPointsBridge/lastSuccessfulBuild/artifact/target/PlayerPointsBridge-1.0-SNAPSHOT.jar"
   },
   "Skull": {
     "version": "1.0",
@@ -150,7 +150,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/Skull/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/Skull/lastSuccessfulBuild/artifact/target/Skull.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/Skull/lastSuccessfulBuild/artifact/target/Skull.jar"
   },
   "SwitchIcon": {
     "version": "1.0-SNAPSHOT",
@@ -159,7 +159,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/SwitchIcon/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/SwitchIcon/lastSuccessfulBuild/artifact/target/SwitchIcon-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/SwitchIcon/lastSuccessfulBuild/artifact/target/SwitchIcon-1.0-SNAPSHOT.jar"
   },
   "TargetMenu": {
     "version": "1.1",
@@ -168,7 +168,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/TargetMenu/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/TargetMenu/lastSuccessfulBuild/artifact/target/TargetMenu.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/TargetMenu/lastSuccessfulBuild/artifact/target/TargetMenu.jar"
   },
   "TokenManagerBridge": {
     "version": "1.0-SNAPSHOT",
@@ -177,7 +177,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/TokenManagerBridge/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/TokenManagerBridge/lastSuccessfulBuild/artifact/target/TokenManagerBridge-1.0-SNAPSHOT.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/TokenManagerBridge/lastSuccessfulBuild/artifact/target/TokenManagerBridge-1.0-SNAPSHOT.jar"
   },
   "VaultBridge": {
     "version": "1.0",
@@ -186,7 +186,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/VaultBridge/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/VaultBridge/lastSuccessfulBuild/artifact/target/VaultBridge.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/VaultBridge/lastSuccessfulBuild/artifact/target/VaultBridge.jar"
   },
   "World-And-Region": {
     "version": "1.0-SNAPSHOT",
@@ -195,7 +195,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/World-And-Region/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/World%20And%20Region/lastSuccessfulBuild/artifact/target/World-And-Region.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/World%20And%20Region/lastSuccessfulBuild/artifact/target/World-And-Region.jar"
   },
   "RealColor": {
     "version": "1.0",
@@ -204,6 +204,6 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/RealColor/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/job/RealColor/lastSuccessfulBuild/artifact/target/RealColor.jar/*view*/"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/job/RealColor/lastSuccessfulBuild/artifact/target/RealColor.jar"
   }
 }
