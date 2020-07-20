@@ -144,7 +144,7 @@
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/PlayerPointsBridge/lastSuccessfulBuild/artifact/target/PlayerPointsBridge-1.0-SNAPSHOT.jar"
   },
   "Skull": {
-    "version": "1.0",
+    "version": "1.1",
     "description": "Skulls for item",
     "authors": [
       "HSGamer"
