@@ -26,15 +26,6 @@
     "source-code": "https://github.com/BetterGUI-MC/ASCII-Placeholders/",
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ASCII-Placeholders/lastSuccessfulBuild/artifact/target/ASCII-Placeholders.jar"
   },
-  "BetterMaterial": {
-    "version": "1.0-SNAPSHOT",
-    "description": "Material properties with alternative material system",
-    "authors": [
-      "HSGamer"
-    ],
-    "source-code": "https://github.com/BetterGUI-MC/BetterMaterial/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/BetterMaterial/lastSuccessfulBuild/artifact/target/BetterMaterial-1.0-SNAPSHOT.jar"
-  },
   "BlockListener": {
     "version": "1.0-SNAPSHOT",
     "description": "Open a menu from Blocks",
