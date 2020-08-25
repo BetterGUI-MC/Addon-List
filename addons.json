@@ -107,15 +107,6 @@
     "source-code": "https://github.com/BetterGUI-MC/NBT-Support/",
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NBT-Support/lastSuccessfulBuild/artifact/target/NBT-Support.jar"
   },
-  "NoteBlock": {
-    "version": "1.0-SNAPSHOT",
-    "description": "Some sounds",
-    "authors": [
-      "HSGamer"
-    ],
-    "source-code": "https://github.com/BetterGUI-MC/NoteBlock/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NoteBlock/lastSuccessfulBuild/artifact/target/NoteBlock-1.0-SNAPSHOT.jar"
-  },
   "NPC-Opener": {
     "version": "1.0-SNAPSHOT",
     "description": "NPC for BetterGUI",
@@ -142,15 +133,6 @@
     ],
     "source-code": "https://github.com/BetterGUI-MC/PlayerPointsBridge/",
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/PlayerPointsBridge/lastSuccessfulBuild/artifact/target/PlayerPointsBridge-1.0-SNAPSHOT.jar"
-  },
-  "Skull": {
-    "version": "1.1",
-    "description": "Skulls for item",
-    "authors": [
-      "HSGamer"
-    ],
-    "source-code": "https://github.com/BetterGUI-MC/Skull/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/Skull/lastSuccessfulBuild/artifact/target/Skull.jar"
   },
   "SwitchIcon": {
     "version": "1.0-SNAPSHOT",
@@ -197,13 +179,4 @@
     "source-code": "https://github.com/BetterGUI-MC/World-And-Region/",
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/World%20And%20Region/lastSuccessfulBuild/artifact/target/World-And-Region.jar"
   },
-  "RealColor": {
-    "version": "1.0",
-    "description": "RGB color support",
-    "authors": [
-      "HSGamer"
-    ],
-    "source-code": "https://github.com/BetterGUI-MC/RealColor/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/job/RealColor/lastSuccessfulBuild/artifact/target/RealColor.jar"
-  }
 }
