@@ -13,7 +13,8 @@ This repo contains details of all BetterGUI addons. Mainly used by the addon dow
       "..."
     ],
     "source-code": "<src-repo-link>",
-    "direct-link": "<direct-download-link>"
+    "direct-link": "<direct-download-link>",
+    "wiki": "<wiki-link>"
   }
 }
 ```
@@ -26,7 +27,8 @@ This repo contains details of all BetterGUI addons. Mainly used by the addon dow
     "description": "Add complex texts as placeholders",
     "authors": ["HSGamer"],
     "source-code": "https://github.com/BetterGUI-MC/ASCII-Placeholders/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ASCII-Placeholders/lastSuccessfulBuild/artifact/target/ASCII-Placeholders.jar"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ASCII-Placeholders/lastSuccessfulBuild/artifact/target/ASCII-Placeholders.jar",
+    "wiki": "https://github.com/BetterGUI-MC/ASCII-Placeholders/blob/master/src/main/resources/config.yml"
   }
 }
 ```
