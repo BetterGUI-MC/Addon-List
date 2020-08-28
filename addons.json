@@ -10,7 +10,7 @@
     "wiki": "https://github.com/BetterGUI-MC/AdvancedCooldown/blob/master/README.md"
   },
   "AnvilGUI": {
-    "version": "1.0-SNAPSHOT",
+    "version": "1.0",
     "description": "Get inputs in a fancy way",
     "authors": [
       "HSGamer"
