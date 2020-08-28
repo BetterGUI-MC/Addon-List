@@ -123,7 +123,7 @@
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/SwitchIcon/lastSuccessfulBuild/artifact/target/SwitchIcon-1.0-SNAPSHOT.jar"
   },
   "TargetMenu": {
-    "version": "1.1",
+    "version": "1.2",
     "description": "A targeted menu",
     "authors": [
       "HSGamer"
