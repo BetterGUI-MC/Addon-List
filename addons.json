@@ -49,7 +49,7 @@
     "wiki": "https://github.com/BetterGUI-MC/BungeeLink/blob/master/README.md"
   },
   "ComplexTextSender": {
-    "version": "1.0-SNAPSHOT",
+    "version": "1.0",
     "description": "Send Complex Text",
     "authors": [
       "HSGamer"
