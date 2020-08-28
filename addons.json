@@ -114,7 +114,7 @@
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/PlayerPointsBridge/lastSuccessfulBuild/artifact/target/PlayerPointsBridge-1.0-SNAPSHOT.jar"
   },
   "SwitchIcon": {
-    "version": "1.0-SNAPSHOT",
+    "version": "1.0",
     "description": "Icon that switches",
     "authors": [
       "HSGamer"
