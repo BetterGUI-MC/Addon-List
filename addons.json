@@ -142,7 +142,7 @@
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/TokenManagerBridge/lastSuccessfulBuild/artifact/target/TokenManagerBridge-1.0-SNAPSHOT.jar"
   },
   "VaultBridge": {
-    "version": "1.0",
+    "version": "1.1",
     "description": "Vault support for BetterGUI",
     "authors": [
       "HSGamer"
