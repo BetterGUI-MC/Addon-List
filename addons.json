@@ -36,7 +36,8 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/BlockListener/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/BlockListener/lastSuccessfulBuild/artifact/target/BlockListener.jar"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/BlockListener/lastSuccessfulBuild/artifact/target/BlockListener.jar",
+    "wiki": "https://github.com/BetterGUI-MC/BlockListener/blob/master/README.md"
   },
   "BungeeLink": {
     "version": "1.1",
@@ -55,7 +56,8 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ComplexTextSender/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ComplexTextSender/lastSuccessfulBuild/artifact/target/ComplexTextSender.jar"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ComplexTextSender/lastSuccessfulBuild/artifact/target/ComplexTextSender.jar",
+    "wiki": "https://github.com/BetterGUI-MC/ComplexTextSender/blob/master/README.md"
   },
   "ID-Material": {
     "version": "1.0-SNAPSHOT",
@@ -83,7 +85,8 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ItemListener/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ItemListener/lastSuccessfulBuild/artifact/target/ItemListener.jar"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ItemListener/lastSuccessfulBuild/artifact/target/ItemListener.jar",
+    "wiki": "https://github.com/BetterGUI-MC/ItemListener/blob/master/README.md"
   },
   "NPC-Opener": {
     "version": "1.0-SNAPSHOT",
@@ -92,7 +95,8 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/NPC-Opener/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NPC-Opener/lastSuccessfulBuild/artifact/target/NPC-Opener.jar"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NPC-Opener/lastSuccessfulBuild/artifact/target/NPC-Opener.jar",
+    "wiki": "https://github.com/BetterGUI-MC/NPC-Opener/blob/master/README.md"
   },
   "OptEcoBridge": {
     "version": "1.1",
@@ -111,7 +115,8 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/PlayerPointsBridge/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/PlayerPointsBridge/lastSuccessfulBuild/artifact/target/PlayerPointsBridge.jar"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/PlayerPointsBridge/lastSuccessfulBuild/artifact/target/PlayerPointsBridge.jar",
+    "wiki": "https://github.com/BetterGUI-MC/PlayerPointsBridge/blob/master/README.md"
   },
   "SwitchIcon": {
     "version": "1.0",
@@ -120,7 +125,8 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/SwitchIcon/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/SwitchIcon/lastSuccessfulBuild/artifact/target/SwitchIcon.jar"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/SwitchIcon/lastSuccessfulBuild/artifact/target/SwitchIcon.jar",
+    "wiki": "https://github.com/BetterGUI-MC/SwitchIcon/blob/master/README.md"
   },
   "TargetMenu": {
     "version": "1.2",
@@ -139,7 +145,8 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/TokenManagerBridge/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/TokenManagerBridge/lastSuccessfulBuild/artifact/target/TokenManagerBridge.jar"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/TokenManagerBridge/lastSuccessfulBuild/artifact/target/TokenManagerBridge.jar",
+    "wiki": "https://github.com/BetterGUI-MC/TokenManagerBridge/blob/master/README.md"
   },
   "VaultBridge": {
     "version": "1.1",
@@ -158,6 +165,7 @@
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/World-And-Region/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/World%20And%20Region/lastSuccessfulBuild/artifact/target/World-And-Region.jar"
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/World%20And%20Region/lastSuccessfulBuild/artifact/target/World-And-Region.jar",
+    "wiki": "https://github.com/BetterGUI-MC/World-And-Region/blob/master/README.md"
   }
 }
