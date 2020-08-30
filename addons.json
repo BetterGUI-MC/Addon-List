@@ -30,7 +30,7 @@
     "wiki": "https://github.com/BetterGUI-MC/ASCII-Placeholders/blob/master/src/main/resources/config.yml"
   },
   "BlockListener": {
-    "version": "1.0-SNAPSHOT",
+    "version": "1.0",
     "description": "Open a menu from Blocks",
     "authors": [
       "HSGamer"
