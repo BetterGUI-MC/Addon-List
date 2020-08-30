@@ -159,7 +159,7 @@
     "wiki": "https://github.com/BetterGUI-MC/VaultBridge/blob/master/README.md"
   },
   "World-And-Region": {
-    "version": "1.0-SNAPSHOT",
+    "version": "1.0",
     "description": "World and Region Requirement",
     "authors": [
       "HSGamer"
