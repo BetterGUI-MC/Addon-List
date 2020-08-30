@@ -139,7 +139,7 @@
     "wiki": "https://github.com/BetterGUI-MC/TargetMenu/blob/master/README.md"
   },
   "TokenManagerBridge": {
-    "version": "1.0-SNAPSHOT",
+    "version": "1.0",
     "description": "Hook to TokenManager",
     "authors": [
       "HSGamer"
