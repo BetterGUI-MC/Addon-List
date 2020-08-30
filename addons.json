@@ -89,7 +89,7 @@
     "wiki": "https://github.com/BetterGUI-MC/ItemListener/blob/master/README.md"
   },
   "NPC-Opener": {
-    "version": "1.0-SNAPSHOT",
+    "version": "1.0",
     "description": "NPC for BetterGUI",
     "authors": [
       "HSGamer"
