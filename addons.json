@@ -109,7 +109,7 @@
     "wiki": "https://github.com/BetterGUI-MC/OptEcoBridge/blob/master/README.md"
   },
   "PlayerPointsBridge": {
-    "version": "1.0-SNAPSHOT",
+    "version": "1.0",
     "description": "Hook to PlayerPoints",
     "authors": [
       "HSGamer"
