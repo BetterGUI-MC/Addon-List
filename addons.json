@@ -79,7 +79,7 @@
     "wiki": "https://github.com/BetterGUI-MC/ItemGotcha/blob/master/README.md"
   },
   "ItemListener": {
-    "version": "1.0-SNAPSHOT",
+    "version": "1.0",
     "description": "Open with items",
     "authors": [
       "HSGamer"
