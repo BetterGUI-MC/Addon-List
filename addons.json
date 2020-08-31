@@ -59,15 +59,6 @@
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ComplexTextSender/lastSuccessfulBuild/artifact/target/ComplexTextSender.jar",
     "wiki": "https://github.com/BetterGUI-MC/ComplexTextSender/blob/master/README.md"
   },
-  "ID-Material": {
-    "version": "1.0-SNAPSHOT",
-    "description": "Support numeric ID in Material",
-    "authors": [
-      "HSGamer"
-    ],
-    "source-code": "https://github.com/BetterGUI-MC/ID-Material/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ID-Material/lastSuccessfulBuild/artifact/target/ID-Material.jar"
-  },
   "ItemGotcha": {
     "version": "1.4",
     "description": "Item Commands and Requirements",
