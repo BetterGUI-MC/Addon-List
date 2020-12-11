@@ -1,5 +1,6 @@
 {
   "AdvancedCooldown": {
+    "file-name": "ASCII-Placeholders.jar",
     "version": "1.0",
     "description": "Cooldown with storage",
     "authors": [
@@ -10,6 +11,7 @@
     "wiki": "https://github.com/BetterGUI-MC/AdvancedCooldown/blob/master/README.md"
   },
   "AnvilGUI": {
+    "file-name": "AnvilGUI.jar",
     "version": "1.0",
     "description": "Get inputs in a fancy way",
     "authors": [
@@ -20,6 +22,7 @@
     "wiki": "https://github.com/BetterGUI-MC/AnvilGUI/blob/master/README.md"
   },
   "ASCII-Placeholders": {
+    "file-name": "ASCII-Placeholders.jar",
     "version": "1.2",
     "description": "Add complex texts as placeholders",
     "authors": [
@@ -30,6 +33,7 @@
     "wiki": "https://github.com/BetterGUI-MC/ASCII-Placeholders/blob/master/src/main/resources/config.yml"
   },
   "BlockListener": {
+    "file-name": "BlockListener.jar",
     "version": "1.0",
     "description": "Open a menu from Blocks",
     "authors": [
@@ -40,6 +44,7 @@
     "wiki": "https://github.com/BetterGUI-MC/BlockListener/blob/master/README.md"
   },
   "BungeeLink": {
+    "file-name": "BungeeLink.jar",
     "version": "1.2",
     "description": "Hook to BungeeCord",
     "authors": [
@@ -50,6 +55,7 @@
     "wiki": "https://github.com/BetterGUI-MC/BungeeLink/blob/master/README.md"
   },
   "ComplexTextSender": {
+    "file-name": "ComplexTextSender.jar",
     "version": "1.0",
     "description": "Send Complex Text",
     "authors": [
@@ -60,6 +66,7 @@
     "wiki": "https://github.com/BetterGUI-MC/ComplexTextSender/blob/master/README.md"
   },
   "ItemGotcha": {
+    "file-name": "ItemGotcha.jar",
     "version": "1.4",
     "description": "Item Commands and Requirements",
     "authors": [
@@ -70,6 +77,7 @@
     "wiki": "https://github.com/BetterGUI-MC/ItemGotcha/blob/master/README.md"
   },
   "ItemListener": {
+    "file-name": "ItemListener.jar",
     "version": "1.0",
     "description": "Open with items",
     "authors": [
@@ -80,6 +88,7 @@
     "wiki": "https://github.com/BetterGUI-MC/ItemListener/blob/master/README.md"
   },
   "NPC-Opener": {
+    "file-name": "NPC-Opener.jar",
     "version": "1.0",
     "description": "NPC for BetterGUI",
     "authors": [
@@ -90,6 +99,7 @@
     "wiki": "https://github.com/BetterGUI-MC/NPC-Opener/blob/master/README.md"
   },
   "OptEcoBridge": {
+    "file-name": "OptEcoBridge.jar",
     "version": "1.2",
     "description": "Hook to OptEco",
     "authors": [
@@ -100,6 +110,7 @@
     "wiki": "https://github.com/BetterGUI-MC/OptEcoBridge/blob/master/README.md"
   },
   "PlayerPointsBridge": {
+    "file-name": "PlayerPointsBridge.jar",
     "version": "1.0",
     "description": "Hook to PlayerPoints",
     "authors": [
@@ -110,6 +121,7 @@
     "wiki": "https://github.com/BetterGUI-MC/PlayerPointsBridge/blob/master/README.md"
   },
   "SwitchIcon": {
+    "file-name": "SwitchIcon.jar",
     "version": "1.0",
     "description": "Icon that switches",
     "authors": [
@@ -120,6 +132,7 @@
     "wiki": "https://github.com/BetterGUI-MC/SwitchIcon/blob/master/README.md"
   },
   "TargetMenu": {
+    "file-name": "TargetMenu.jar",
     "version": "1.2",
     "description": "A targeted menu",
     "authors": [
@@ -130,6 +143,7 @@
     "wiki": "https://github.com/BetterGUI-MC/TargetMenu/blob/master/README.md"
   },
   "TokenManagerBridge": {
+    "file-name": "TokenManagerBridge.jar",
     "version": "1.0",
     "description": "Hook to TokenManager",
     "authors": [
@@ -140,6 +154,7 @@
     "wiki": "https://github.com/BetterGUI-MC/TokenManagerBridge/blob/master/README.md"
   },
   "VaultBridge": {
+    "file-name": "VaultBridge.jar",
     "version": "1.1",
     "description": "Vault support for BetterGUI",
     "authors": [
@@ -150,7 +165,8 @@
     "wiki": "https://github.com/BetterGUI-MC/VaultBridge/blob/master/README.md"
   },
   "World-And-Region": {
-    "version": "1.0",
+    "file-name": "World-And-Region.jar",
+    "version": "1.1",
     "description": "World and Region Requirement",
     "authors": [
       "HSGamer"

@@ -5,6 +5,7 @@ This repo contains details of all BetterGUI addons. Mainly used by the addon dow
 ```json
 {
   "<addon-name>": {
+    "file-name": "<filename>",
     "version": "<version>",
     "description": "<description>",
     "authors": [
@@ -23,6 +24,7 @@ This repo contains details of all BetterGUI addons. Mainly used by the addon dow
 ```json
 {
   "ASCII-Placeholders": {
+    "file-name": "ASCII-Placeholders.jar",
     "version": "1.1",
     "description": "Add complex texts as placeholders",
     "authors": ["HSGamer"],
