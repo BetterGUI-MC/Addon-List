@@ -1,7 +1,9 @@
 # Addon-List
+
 This repo contains details of all BetterGUI addons. Mainly used by the addon downloader
 
 # Format
+
 ```json
 {
   "<addon-name>": {
@@ -21,13 +23,16 @@ This repo contains details of all BetterGUI addons. Mainly used by the addon dow
 ```
 
 # Example
+
 ```json
 {
   "ASCII-Placeholders": {
     "file-name": "ASCII-Placeholders.jar",
     "version": "1.1",
     "description": "Add complex texts as placeholders",
-    "authors": ["HSGamer"],
+    "authors": [
+      "HSGamer"
+    ],
     "source-code": "https://github.com/BetterGUI-MC/ASCII-Placeholders/",
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ASCII-Placeholders/lastSuccessfulBuild/artifact/target/ASCII-Placeholders.jar",
     "wiki": "https://github.com/BetterGUI-MC/ASCII-Placeholders/blob/master/src/main/resources/config.yml"
