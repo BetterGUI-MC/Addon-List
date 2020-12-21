@@ -89,13 +89,13 @@
   },
   "NPC-Opener": {
     "file-name": "NPC-Opener.jar",
-    "version": "1.1",
+    "version": "2.0",
     "description": "NPC for BetterGUI",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/NPC-Opener/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/NPC-Opener/62/artifact/target/NPC-Opener.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/job/NPC-Opener/64/artifact/target/NPC-Opener.jar",
     "wiki": "https://github.com/BetterGUI-MC/NPC-Opener/blob/master/README.md"
   },
   "OptEcoBridge": {
