@@ -87,16 +87,6 @@
     "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/ItemListener/68/artifact/target/ItemListener.jar",
     "wiki": "https://github.com/BetterGUI-MC/ItemListener/blob/master/README.md"
   },
-  "LegacySimpleButton": {
-    "file-name": "LegacySimpleButton.jar",
-    "version": "1.0",
-    "description": "An addon to support the old SimpleButton",
-    "authors": [
-      "HSGamer"
-    ],
-    "source-code": "https://github.com/BetterGUI-MC/LegacySimpleButton/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/LegacySimpleButton/1/artifact/target/LegacySimpleButton-1.0.jar"
-  },
   "NPC-Opener": {
     "file-name": "NPC-Opener.jar",
     "version": "1.1",
