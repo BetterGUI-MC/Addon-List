@@ -1,13 +1,13 @@
 {
   "AdvancedCooldown": {
     "file-name": "AdvancedCooldown.jar",
-    "version": "2.0",
+    "version": "2.1",
     "description": "Cooldown with storage",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/AdvancedCooldown/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/AdvancedCooldown/25/artifact/target/AdvancedCooldown.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/AdvancedCooldown/26/artifact/target/AdvancedCooldown.jar",
     "wiki": "https://github.com/BetterGUI-MC/AdvancedCooldown/blob/master/README.md"
   },
   "AnvilGUI": {
