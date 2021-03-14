@@ -12,13 +12,13 @@
   },
   "AnvilGUI": {
     "file-name": "AnvilGUI.jar",
-    "version": "2.0",
+    "version": "2.1",
     "description": "Get inputs in a fancy way",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/AnvilGUI/",
-    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/AnvilGUI/31/artifact/target/AnvilGUI.jar",
+    "direct-link": "https://ci.codemc.io/view/Author/job/BetterGUI-MC/view/Addon/job/AnvilGUI/34/artifact/target/AnvilGUI.jar",
     "wiki": "https://github.com/BetterGUI-MC/AnvilGUI/blob/master/README.md"
   },
   "ASCII-Placeholders": {
