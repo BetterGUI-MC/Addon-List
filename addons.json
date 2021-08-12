@@ -12,13 +12,13 @@
   },
   "AnvilGUI": {
     "file-name": "AnvilGUI.jar",
-    "version": "3.0",
+    "version": "3.1",
     "description": "Get inputs in a fancy way",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/AnvilGUI/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/AnvilGUI/37/artifact/target/AnvilGUI.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/AnvilGUI/43/artifact/target/AnvilGUI.jar",
     "wiki": "https://github.com/BetterGUI-MC/AnvilGUI/blob/master/README.md"
   },
   "ASCII-Placeholders": {
@@ -100,13 +100,13 @@
   },
   "OptEcoBridge": {
     "file-name": "OptEcoBridge.jar",
-    "version": "3.0",
+    "version": "4.0",
     "description": "Hook to OptEco",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/OptEcoBridge/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/OptEcoBridge/49/artifact/target/OptEcoBridge.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/OptEcoBridge/53/artifact/target/OptEcoBridge.jar",
     "wiki": "https://github.com/BetterGUI-MC/OptEcoBridge/blob/master/README.md"
   },
   "PlayerPointsBridge": {
