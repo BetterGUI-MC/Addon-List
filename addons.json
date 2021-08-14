@@ -155,13 +155,13 @@
   },
   "VaultBridge": {
     "file-name": "VaultBridge.jar",
-    "version": "1.2",
+    "version": "1.3",
     "description": "Vault support for BetterGUI",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/VaultBridge/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/VaultBridge/157/artifact/target/VaultBridge.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/VaultBridge/161/artifact/target/VaultBridge.jar",
     "wiki": "https://github.com/BetterGUI-MC/VaultBridge/blob/master/README.md"
   },
   "World-And-Region": {
