@@ -34,13 +34,13 @@
   },
   "BlockListener": {
     "file-name": "BlockListener.jar",
-    "version": "2.1",
+    "version": "2.2",
     "description": "Open a menu from Blocks",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/BlockListener/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/BlockListener/74/artifact/target/BlockListener.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/BlockListener/78/artifact/target/BlockListener.jar",
     "wiki": "https://github.com/BetterGUI-MC/BlockListener/blob/master/README.md"
   },
   "BungeeLink": {
