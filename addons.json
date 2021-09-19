@@ -67,13 +67,13 @@
   },
   "ItemGotcha": {
     "file-name": "ItemGotcha.jar",
-    "version": "3.0",
+    "version": "3.1",
     "description": "Item Commands and Requirements",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ItemGotcha/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ItemGotcha/161/artifact/target/ItemGotcha.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ItemGotcha/166/artifact/target/ItemGotcha.jar",
     "wiki": "https://github.com/BetterGUI-MC/ItemGotcha/blob/master/README.md"
   },
   "ItemListener": {
