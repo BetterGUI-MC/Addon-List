@@ -1,178 +1,211 @@
 {
   "AdvancedCooldown": {
     "file-name": "AdvancedCooldown.jar",
-    "version": "3.0",
+    "version": "4.0",
     "description": "Cooldown with storage",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/AdvancedCooldown/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/AdvancedCooldown/28/artifact/target/AdvancedCooldown.jar",
-    "wiki": "https://github.com/BetterGUI-MC/AdvancedCooldown/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/AdvancedCooldown/84/artifact/target/AdvancedCooldown-4.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/advanced-cooldown.html"
   },
   "AnvilGUI": {
     "file-name": "AnvilGUI.jar",
-    "version": "3.6",
+    "version": "4.0",
     "description": "Get inputs in a fancy way",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/AnvilGUI/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/job/AnvilGUI/55/artifact/target/AnvilGUI.jar",
-    "wiki": "https://github.com/BetterGUI-MC/AnvilGUI/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/job/AnvilGUI/115/artifact/target/AnvilGUI-4.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/anvil-gui.html"
   },
   "ASCII-Placeholders": {
     "file-name": "ASCII-Placeholders.jar",
-    "version": "1.4",
+    "version": "2.0",
     "description": "Add complex texts as placeholders",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ASCII-Placeholders/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ASCII-Placeholders/58/artifact/target/ASCII-Placeholders.jar",
-    "wiki": "https://github.com/BetterGUI-MC/ASCII-Placeholders/blob/master/src/main/resources/config.yml"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ASCII-Placeholders/115/artifact/target/ASCII-Placeholders-2.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/ascii-placeholders.html"
   },
   "BlockListener": {
     "file-name": "BlockListener.jar",
-    "version": "2.2",
+    "version": "3.0",
     "description": "Open a menu from Blocks",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/BlockListener/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/BlockListener/78/artifact/target/BlockListener.jar",
-    "wiki": "https://github.com/BetterGUI-MC/BlockListener/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/BlockListener/130/artifact/target/BlockListener-3.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/block-listener.html"
   },
   "BungeeLink": {
     "file-name": "BungeeLink.jar",
-    "version": "1.3",
+    "version": "2.0",
     "description": "Hook to BungeeCord",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/BungeeLink/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/BungeeLink/44/artifact/target/BungeeLink.jar",
-    "wiki": "https://github.com/BetterGUI-MC/BungeeLink/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/BungeeLink/100/artifact/target/BungeeLink-2.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/bungee-link.html"
   },
   "ComplexTextSender": {
     "file-name": "ComplexTextSender.jar",
-    "version": "1.2",
+    "version": "2.0",
     "description": "Send Complex Text",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ComplexTextSender/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ComplexTextSender/38/artifact/target/ComplexTextSender.jar",
-    "wiki": "https://github.com/BetterGUI-MC/ComplexTextSender/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ComplexTextSender/96/artifact/target/ComplexTextSender-2.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/complex-text-sender.html"
   },
   "ItemGotcha": {
     "file-name": "ItemGotcha.jar",
-    "version": "3.3",
+    "version": "4.0",
     "description": "Item Commands and Requirements",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ItemGotcha/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ItemGotcha/169/artifact/target/ItemGotcha.jar",
-    "wiki": "https://github.com/BetterGUI-MC/ItemGotcha/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ItemGotcha/223/artifact/target/ItemGotcha-4.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/item-gotcha.html"
   },
   "ItemListener": {
     "file-name": "ItemListener.jar",
-    "version": "2.0",
+    "version": "3.0",
     "description": "Open with items",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/ItemListener/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ItemListener/70/artifact/target/ItemListener.jar",
-    "wiki": "https://github.com/BetterGUI-MC/ItemListener/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ItemListener/126/artifact/target/ItemListener-3.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/item-listener.html"
   },
   "NPC-Opener": {
     "file-name": "NPC-Opener.jar",
-    "version": "3.0",
+    "version": "4.0",
     "description": "NPC for BetterGUI",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/NPC-Opener/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/NPC-Opener/112/artifact/target/NPC-Opener.jar",
-    "wiki": "https://github.com/BetterGUI-MC/NPC-Opener/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/NPC-Opener/180/artifact/target/NPC-Opener-4.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/npc-opener.html"
   },
   "OptEcoBridge": {
     "file-name": "OptEcoBridge.jar",
-    "version": "4.0",
+    "version": "5.0",
     "description": "Hook to OptEco",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/OptEcoBridge/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/OptEcoBridge/53/artifact/target/OptEcoBridge.jar",
-    "wiki": "https://github.com/BetterGUI-MC/OptEcoBridge/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/OptEcoBridge/108/artifact/target/OptEcoBridge-5.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/opt-eco-bridge.html"
   },
   "PlayerPointsBridge": {
     "file-name": "PlayerPointsBridge.jar",
-    "version": "1.1",
+    "version": "2.0",
     "description": "Hook to PlayerPoints",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/PlayerPointsBridge/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/PlayerPointsBridge/79/artifact/target/PlayerPointsBridge.jar",
-    "wiki": "https://github.com/BetterGUI-MC/PlayerPointsBridge/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/PlayerPointsBridge/142/artifact/target/PlayerPointsBridge-2.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/player-points-bridge.html"
   },
   "SwitchIcon": {
     "file-name": "SwitchIcon.jar",
-    "version": "3.0",
+    "version": "4.0",
     "description": "Icon that switches",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/SwitchIcon/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/SwitchIcon/32/artifact/target/SwitchIcon.jar",
-    "wiki": "https://github.com/BetterGUI-MC/SwitchIcon/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/SwitchIcon/88/artifact/target/SwitchIcon-4.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/switch-icon.html"
   },
   "TargetMenu": {
     "file-name": "TargetMenu.jar",
-    "version": "2.0",
+    "version": "3.0",
     "description": "A targeted menu",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/TargetMenu/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/TargetMenu/32/artifact/target/TargetMenu.jar",
-    "wiki": "https://github.com/BetterGUI-MC/TargetMenu/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/TargetMenu/88/artifact/target/TargetMenu-3.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/target-menu.html"
   },
   "TokenManagerBridge": {
     "file-name": "TokenManagerBridge.jar",
-    "version": "1.1",
+    "version": "2.0",
     "description": "Hook to TokenManager",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/TokenManagerBridge/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/TokenManagerBridge/79/artifact/target/TokenManagerBridge.jar",
-    "wiki": "https://github.com/BetterGUI-MC/TokenManagerBridge/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/TokenManagerBridge/140/artifact/target/TokenManagerBridge-2.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/token-manager-bridge.html"
   },
   "VaultBridge": {
     "file-name": "VaultBridge.jar",
-    "version": "1.4",
+    "version": "2.0",
     "description": "Vault support for BetterGUI",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/VaultBridge/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/VaultBridge/162/artifact/target/VaultBridge.jar",
-    "wiki": "https://github.com/BetterGUI-MC/VaultBridge/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/VaultBridge/224/artifact/target/VaultBridge-2.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/vault-bridge.html"
   },
   "World-And-Region": {
     "file-name": "World-And-Region.jar",
-    "version": "2.0",
+    "version": "3.0",
     "description": "World and Region Requirement",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/World-And-Region/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/World%20And%20Region/151/artifact/target/World-And-Region.jar",
-    "wiki": "https://github.com/BetterGUI-MC/World-And-Region/blob/master/README.md"
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/World%20And%20Region/208/artifact/target/World-And-Region-3.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/world-and-region.html"
+  },
+  "XCross": {
+    "file-name": "XCross.jar",
+    "version": "1.0",
+    "description": "Integrate XSeries for better cross-version support",
+    "authors": [
+      "HSGamer"
+    ],
+    "source-code": "https://github.com/BetterGUI-MC/XCross/",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/XCross/53/artifact/target/XCross-1.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/x-cross.html"
+  },
+  "PaperSpec": {
+    "file-name": "PaperSpec.jar",
+    "version": "1.0",
+    "description": "Things only work on Paper",
+    "authors": [
+      "HSGamer"
+    ],
+    "source-code": "https://github.com/BetterGUI-MC/PaperSpec/",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/PaperSpec/48/artifact/target/PaperSpec-1.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/paper-spec.html"
+  },
+  "EvalExtra": {
+    "file-name": "EvalExtra.jar",
+    "version": "1.0",
+    "description": "Advanced expression evaluation for BetterGUI",
+    "authors": [
+      "HSGamer"
+    ],
+    "source-code": "https://github.com/BetterGUI-MC/EvalExtra/",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/EvalExtra/56/artifact/target/EvalExtra-1.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/eval-extra.html"
   }
 }
