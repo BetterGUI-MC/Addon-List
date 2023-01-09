@@ -210,13 +210,13 @@
   },
   "DynamicTitle": {
     "file-name": "DynamicTitle.jar",
-    "version": "1.1",
+    "version": "1.2",
     "description": "Refreshing inventory title",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/DynamicTitle/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/DynamicTitle/3/artifact/target/DynamicTitle-1.1.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/DynamicTitle/4/artifact/target/DynamicTitle-1.2.jar",
     "wiki": "https://bettergui-mc.github.io/Wiki/addon/dynamic-title.html"
   }
 }
