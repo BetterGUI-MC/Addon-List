@@ -207,5 +207,16 @@
     "source-code": "https://github.com/BetterGUI-MC/EvalExtra/",
     "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/EvalExtra/56/artifact/target/EvalExtra-1.0.jar",
     "wiki": "https://bettergui-mc.github.io/Wiki/addon/eval-extra.html"
+  },
+  "DynamicTitle": {
+    "file-name": "DynamicTitle.jar",
+    "version": "1.0",
+    "description": "Refreshing inventory title",
+    "authors": [
+      "HSGamer"
+    ],
+    "source-code": "https://github.com/BetterGUI-MC/DynamicTitle/",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/DynamicTitle/2/artifact/target/DynamicTitle-1.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/dynamic-title.html"
   }
 }
