@@ -177,13 +177,13 @@
   },
   "XCross": {
     "file-name": "XCross.jar",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Integrate XSeries for better cross-version support",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/XCross/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/XCross/53/artifact/target/XCross-1.0.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/XCross/54/artifact/target/XCross-1.1.jar",
     "wiki": "https://bettergui-mc.github.io/Wiki/addon/x-cross.html"
   },
   "PaperSpec": {
