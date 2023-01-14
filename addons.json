@@ -229,5 +229,16 @@
     "source-code": "https://github.com/BetterGUI-MC/ItemBridgeHook/",
     "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ItemBridgeHook/2/artifact/target/ItemBridgeHook-1.0.jar",
     "wiki": "https://bettergui-mc.github.io/Wiki/addon/itembridge-hook.html"
+  },
+  "MetaPlay": {
+    "file-name": "MetaPlay.jar",
+    "version": "1.0",
+    "description": "Custom variables with metadata value",
+    "authors": [
+      "HSGamer"
+    ],
+    "source-code": "https://github.com/BetterGUI-MC/MetaPlay/",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/MetaPlay/2/artifact/target/MetaPlay-1.0.jar",
+    "wiki": "https://bettergui-mc.github.io/Wiki/addon/meta-play.html"
   }
 }
