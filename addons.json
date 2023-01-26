@@ -133,13 +133,13 @@
   },
   "TargetMenu": {
     "file-name": "TargetMenu.jar",
-    "version": "3.0",
+    "version": "4.0",
     "description": "A targeted menu",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/TargetMenu/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/TargetMenu/88/artifact/target/TargetMenu-3.0.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/TargetMenu/93/artifact/target/TargetMenu-4.0.jar",
     "wiki": "https://bettergui-mc.github.io/Wiki/addon/target-menu.html"
   },
   "TokenManagerBridge": {
