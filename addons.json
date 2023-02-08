@@ -251,5 +251,16 @@
     "source-code": "https://github.com/BetterGUI-MC/ExterHeads/",
     "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ExterHeads/2/artifact/target/ExterHeads-1.0.jar",
     "wiki": "https://bettergui-mc.github.io/Docs/addon/exterheads/index.html"
+  },
+  "Converter": {
+    "file-name": "Converter.jar",
+    "version": "0.1",
+    "description": "Convert menus from other menu plugins",
+    "authors": [
+      "HSGamer"
+    ],
+    "source-code": "https://github.com/BetterGUI-MC/Converter/",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/Converter/3/artifact/target/Converter-0.1.jar",
+    "wiki": "https://bettergui-mc.github.io/Docs/addon/converter/index.html"
   }
 }
