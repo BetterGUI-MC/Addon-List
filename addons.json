@@ -177,13 +177,13 @@
   },
   "EvalExtra": {
     "file-name": "EvalExtra.jar",
-    "version": "2.1",
+    "version": "2.2",
     "description": "Advanced expression evaluation for BetterGUI",
     "authors": [
       "HSGamer"
     ],
     "source-code": "https://github.com/BetterGUI-MC/EvalExtra/",
-    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/EvalExtra/59/artifact/target/EvalExtra-2.1.jar",
+    "direct-link": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/EvalExtra/61/artifact/target/EvalExtra-2.2.jar",
     "wiki": "https://bettergui-mc.github.io/Docs/addon/eval-extra/index.html"
   },
   "DynamicTitle": {
