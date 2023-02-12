@@ -1,0 +1,11 @@
+{
+  "name": "NPC-Opener",
+  "version": "4.0",
+  "description": "NPC for BetterGUI",
+  "author": [
+    "HSGamer"
+  ],
+  "code": "https://github.com/BetterGUI-MC/NPC-Opener/",
+  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/NPC-Opener/181/artifact/target/NPC-Opener-4.0.jar",
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/npc-opener/index.html"
+}

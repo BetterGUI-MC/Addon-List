@@ -1,0 +1,11 @@
+{
+  "name": "World-And-Region",
+  "version": "4.0",
+  "description": "World and Region Requirement",
+  "author": [
+    "HSGamer"
+  ],
+  "code": "https://github.com/BetterGUI-MC/World-And-Region/",
+  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/World%20And%20Region/209/artifact/target/World-And-Region-4.0.jar",
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/world-and-region/index.html"
+}

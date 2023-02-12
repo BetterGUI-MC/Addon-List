@@ -1,0 +1,11 @@
+{
+  "name": "TokenManagerBridge",
+  "version": "3.0",
+  "description": "Hook to TokenManager",
+  "author": [
+    "HSGamer"
+  ],
+  "code": "https://github.com/BetterGUI-MC/TokenManagerBridge/",
+  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/TokenManagerBridge/142/artifact/target/TokenManagerBridge-3.0.jar",
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/token-manager-bridge/index.html"
+}

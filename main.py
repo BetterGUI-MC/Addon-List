@@ -1,12 +1,10 @@
 import json
 import os
 
-import javaproperties
-
 
 def read_properties(path: str) -> dict:
     with open(path, "r") as file:
-        return javaproperties.load(file)
+        return json.load(file)
 
 
 def read_folder(path: str) -> list[dict]:
@@ -18,26 +16,24 @@ def read_folder(path: str) -> list[dict]:
 
 
 def convert(properties: dict, file_extension: str = ".jar") -> (str, dict):
-    name = ""
-    values = {}
-
-    prop_name = properties["NAME"]
+    prop_name = properties["name"]
     name = prop_name
-    values["file-name"] = name + file_extension
-
-    values["version"] = properties["VERSION"]
-    values["description"] = properties["DESCRIPTION"]
-    values["authors"] = [author.strip() for author in properties["AUTHOR"].split(",")]
-    values["source-code"] = properties["CODE"]
-    values["direct-link"] = properties["DOWNLOAD"]
-    values["wiki"] = properties["WIKI"]
+    values = {
+        "file-name": name + file_extension,
+        "version": properties["version"],
+        "description": properties["description"],
+        "authors": properties["author"],
+        "source-code": properties["code"],
+        "direct-link": properties["download"],
+        "wiki": properties["wiki"]
+    }
 
     return name, values
 
 
 def write(path: str, properties_dict: dict):
     with open(path, "w") as file:
-        json_str = json.dumps(properties_dict)
+        json_str = json.dumps(properties_dict, separators=(",", ":"))
         file.write(json_str)
 
 
@@ -47,7 +43,7 @@ def main():
     for properties in arr:
         name, values = convert(properties)
         converted[name] = values
-    write("addons_new.json", converted)
+    write("addons.json", converted)
 
 
 if __name__ == '__main__':
