@@ -1,0 +1,22 @@
+name: Update addons
+
+on:
+  push:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Build final file
+      run: python main.py
+    - uses: actions/upload-artifact@v3
+      with:
+        name: addons
+        path: addons.json
