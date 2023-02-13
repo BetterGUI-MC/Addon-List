@@ -1,11 +1,11 @@
 {
   "name": "ItemBridgeHook",
-  "version": "1.0",
   "description": "Hook to ItemBridge",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/ItemBridgeHook/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ItemBridgeHook/3/artifact/target/ItemBridgeHook-1.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/itembridge-hook/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/itembridge-hook/index.html",
+  "type": "official",
+  "jenkins": "ItemBridgeHook"
 }

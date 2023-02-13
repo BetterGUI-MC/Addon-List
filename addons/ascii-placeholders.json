@@ -1,11 +1,11 @@
 {
   "name": "ASCII-Placeholders",
-  "version": "2.1",
   "description": "Add complex texts as placeholders",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/ASCII-Placeholders/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ASCII-Placeholders/117/artifact/target/ASCII-Placeholders-2.1.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/ascii-placeholders/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/ascii-placeholders/index.html",
+  "type": "official",
+  "jenkins": "ASCII-Placeholders"
 }

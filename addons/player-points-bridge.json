@@ -1,11 +1,11 @@
 {
   "name": "PlayerPointsBridge",
-  "version": "3.0",
   "description": "Hook to PlayerPoints",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/PlayerPointsBridge/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/PlayerPointsBridge/143/artifact/target/PlayerPointsBridge-3.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/player-points-bridge/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/player-points-bridge/index.html",
+  "type": "official",
+  "jenkins": "PlayerPointsBridge"
 }

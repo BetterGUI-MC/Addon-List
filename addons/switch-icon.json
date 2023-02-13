@@ -1,11 +1,11 @@
 {
   "name": "SwitchIcon",
-  "version": "5.0",
   "description": "Icon that switches",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/SwitchIcon/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/SwitchIcon/89/artifact/target/SwitchIcon-5.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/switch-icon/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/switch-icon/index.html",
+  "type": "official",
+  "jenkins": "SwitchIcon"
 }

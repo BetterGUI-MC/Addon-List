@@ -1,11 +1,11 @@
 {
   "name": "VaultBridge",
-  "version": "3.0",
   "description": "Vault support for BetterGUI",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/VaultBridge/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/VaultBridge/225/artifact/target/VaultBridge-3.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/vault-bridge/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/vault-bridge/index.html",
+  "type": "official",
+  "jenkins": "VaultBridge"
 }

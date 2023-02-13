@@ -1,11 +1,11 @@
 {
   "name": "Converter",
-  "version": "0.1",
   "description": "Convert menus from other menu plugins",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/Converter/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/Converter/3/artifact/target/Converter-0.1.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/converter/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/converter/index.html",
+  "type": "official",
+  "jenkins": "Converter"
 }

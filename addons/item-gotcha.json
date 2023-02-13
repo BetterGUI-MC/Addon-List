@@ -1,11 +1,11 @@
 {
   "name": "ItemGotcha",
-  "version": "5.0",
   "description": "Item Commands and Requirements",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/ItemGotcha/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ItemGotcha/224/artifact/target/ItemGotcha-5.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/item-gotcha/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/item-gotcha/index.html",
+  "type": "official",
+  "jenkins": "ItemGotcha"
 }

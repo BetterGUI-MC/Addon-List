@@ -1,11 +1,11 @@
 {
   "name": "DynamicTitle",
-  "version": "2.0",
   "description": "Refreshing inventory title",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/DynamicTitle/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/DynamicTitle/19/artifact/target/DynamicTitle-2.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/dynamic-title/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/dynamic-title/index.html",
+  "type": "official",
+  "jenkins": "DynamicTitle"
 }

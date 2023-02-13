@@ -1,11 +1,11 @@
 {
   "name": "ExterHeads",
-  "version": "1.0",
   "description": "Get heads from popular head plugins",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/ExterHeads/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ExterHeads/2/artifact/target/ExterHeads-1.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/exterheads/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/exterheads/index.html",
+  "type": "official",
+  "jenkins": "ExterHeads"
 }

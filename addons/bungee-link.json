@@ -1,11 +1,11 @@
 {
   "name": "BungeeLink",
-  "version": "3.0",
   "description": "Hook to BungeeCord",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/BungeeLink/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/BungeeLink/101/artifact/target/BungeeLink-3.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/bungee-link/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/bungee-link/index.html",
+  "type": "official",
+  "jenkins": "BungeeLink"
 }

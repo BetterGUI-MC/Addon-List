@@ -1,11 +1,11 @@
 {
   "name": "BlockListener",
-  "version": "3.0",
   "description": "Open a menu from Blocks",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/BlockListener/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/BlockListener/131/artifact/target/BlockListener-3.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/block-listener/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/block-listener/index.html",
+  "type": "official",
+  "jenkins": "BlockListener"
 }

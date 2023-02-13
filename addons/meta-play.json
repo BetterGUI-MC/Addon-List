@@ -1,11 +1,11 @@
 {
   "name": "MetaPlay",
-  "version": "2.0",
   "description": "Custom variables with metadata value",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/MetaPlay/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/MetaPlay/5/artifact/target/MetaPlay-2.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/meta-play/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/meta-play/index.html",
+  "type": "official",
+  "jenkins": "MetaPlay"
 }

@@ -1,11 +1,11 @@
 {
   "name": "AnvilGUI",
-  "version": "5.0",
   "description": "Get inputs in a fancy way",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/AnvilGUI/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/job/AnvilGUI/117/artifact/target/AnvilGUI-5.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/anvil-gui/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/anvil-gui/index.html",
+  "type": "official",
+  "jenkins": "AnvilGUI"
 }

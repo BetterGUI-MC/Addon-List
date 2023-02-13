@@ -1,11 +1,11 @@
 {
   "name": "XCross",
-  "version": "2.0",
   "description": "Integrate XSeries for better cross-version support",
   "author": [
     "HSGamer"
   ],
   "code": "https://github.com/BetterGUI-MC/XCross/",
-  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/XCross/55/artifact/target/XCross-2.0.jar",
-  "wiki": "https://bettergui-mc.github.io/Docs/addon/x-cross/index.html"
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/x-cross/index.html",
+  "type": "official",
+  "jenkins": "XCross"
 }
