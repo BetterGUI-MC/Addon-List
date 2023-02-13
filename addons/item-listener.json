@@ -1,0 +1,11 @@
+{
+  "name": "ItemListener",
+  "version": "3.0",
+  "description": "Open with items",
+  "author": [
+    "HSGamer"
+  ],
+  "code": "https://github.com/BetterGUI-MC/ItemListener/",
+  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/ItemListener/127/artifact/target/ItemListener-3.0.jar",
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/item-listener/index.html"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "TargetMenu",
+  "version": "4.0",
+  "description": "A targeted menu",
+  "author": [
+    "HSGamer"
+  ],
+  "code": "https://github.com/BetterGUI-MC/TargetMenu/",
+  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/TargetMenu/95/artifact/target/TargetMenu-4.0.jar",
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/target-menu/index.html"
+}

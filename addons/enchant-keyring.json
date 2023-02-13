@@ -1,0 +1,11 @@
+{
+  "name": "EnchantKeyring",
+  "version": "1.0",
+  "description": "Use custom enchants via Minecraft's key",
+  "author": [
+    "HSGamer"
+  ],
+  "code": "https://github.com/BetterGUI-MC/EnchantKeyring/",
+  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/EnchantKeyring/4/artifact/target/EnchantKeyring-1.0.jar",
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/enchant-keyring/index.html"
+}

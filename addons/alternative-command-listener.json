@@ -1,0 +1,11 @@
+{
+  "name": "AlternativeCommandListener",
+  "version": "1.0",
+  "description": "A command listener that overrides duplicated commands",
+  "author": [
+    "HSGamer"
+  ],
+  "code": "https://github.com/BetterGUI-MC/AlternativeCommandListener/",
+  "download": "https://ci.codemc.io/job/BetterGUI-MC/view/Addon/job/AlternativeCommandListener/2/artifact/target/AlternativeCommandListener-1.0.jar",
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/alternative-command-listener/index.html"
+}
