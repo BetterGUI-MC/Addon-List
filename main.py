@@ -4,7 +4,7 @@ import re
 import urllib.request as request
 import urllib.parse as parse
 
-pattern = re.compile(r"(.+)-([\d.]+)\.jar")
+pattern = re.compile(r"(.+)-([\d.]+)-shaded\.jar")
 
 
 def read_properties(path: str) -> dict:
