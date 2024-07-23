@@ -1,0 +1,11 @@
+{
+  "name": "TradeMart",
+  "description": "A menu to trade items with Villager GUI",
+  "author": [
+    "HSGamer"
+  ],
+  "code": "https://github.com/BetterGUI-MC/TradeMart/",
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/trade-mart.html",
+  "type": "official",
+  "jenkins": "TradeMart"
+}
