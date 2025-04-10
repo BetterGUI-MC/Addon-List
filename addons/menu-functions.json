@@ -1,0 +1,11 @@
+{
+  "name": "MenuFunctions",
+  "version": "1.0.0",
+  "description": "Adds different functions that can be used in the menu",
+  "author": [
+    "GIGABAIT"
+  ],
+  "code": "https://github.com/BetterGUI-Addons/MenuFunctions",
+  "download": "https://github.com/BetterGUI-Addons/MenuFunctions/releases/latest/download/MenuFunctions.jar",
+  "wiki": "https://github.com/BetterGUI-Addons/MenuFunctions/blob/master/README.md"
+}
