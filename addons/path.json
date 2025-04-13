@@ -1,0 +1,11 @@
+{
+  "name": "Path",
+  "version": "1.0.0",
+  "description": "Allows you to set a custom path to the menu and templates",
+  "author": [
+    "GIGABAIT"
+  ],
+  "code": "https://github.com/BetterGUI-Addons/Path",
+  "download": "https://github.com/BetterGUI-Addons/Path/releases/download/1.0.0/Path.jar",
+  "wiki": "https://github.com/BetterGUI-Addons/Path/blob/master/README.md"
+}
