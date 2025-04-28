@@ -1,6 +1,6 @@
 {
   "name": "ItemBridgeHook",
-  "description": "Hook to ItemBridge",
+  "description": "Hook to custom item plugins",
   "author": [
     "HSGamer"
   ],
