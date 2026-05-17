@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BetterGUI Addon List</title>
+        <style>
+            :root {
+                --bg: #f6f8fa; --card: #fff; --text: #1f2328; --muted: #656d76;
+                --border: #d0d7de; --primary: #0969da; --success: #1a7f37; --community: #8c40bf;
+            }
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bg: #0d1117; --card: #161b22; --text: #c9d1d9; --muted: #8b949e;
+                    --border: #30363d; --primary: #2f81f7; --success: #3fb950; --community: #bc8cff;
+                }
+            }
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+                line-height: 1.5; background: var(--bg); color: var(--text);
+                max-width: 800px; margin: 0 auto; padding: 2rem 1rem;
+            }
+            header, nav, main, footer { margin-bottom: 1.5rem; }
+            h1 { font-size: 1.5rem; font-weight: 600; }
+            p { color: var(--muted); font-size: 0.875rem; }
+
+            input[type="search"] {
+                width: 100%; padding: 0.5rem 0.75rem; border: 1px solid var(--border);
+                border-radius: 6px; background: var(--card); color: inherit; outline: none; margin-bottom: 0.5rem;
+            }
+            .filters { display: flex; gap: 0.5rem; }
+            .btn {
+                font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.75rem;
+                border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--text);
+                cursor: pointer; text-decoration: none; display: inline-block;
+            }
+            .btn:hover { background: var(--border); }
+            .btn-primary { background: var(--primary); color: #fff; border-color: var(--primary); }
+            .btn-active { background: var(--text); color: var(--bg); border: none; }
+
+            .addon-card {
+                background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 1rem; margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.5rem;
+            }
+            .card-header { display: flex; justify-content: space-between; align-items: center; }
+            .card-title { font-size: 1.1rem; font-weight: 600; }
+            .badge { font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 4px; font-weight: 500; }
+            .badge-official { color: var(--success); border: 1px solid var(--success); }
+            .badge-community { color: var(--community); border: 1px solid var(--community); }
+            .version { font-size: 0.75rem; color: var(--muted); }
+            .card-body { font-size: 0.875rem; color: var(--muted); }
+            .card-actions { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>BetterGUI Addon List</h1>
+                <p>Curated addons for BetterGUI</p>
+            </header>
+
+            <nav class="controls">
+                <input type="search" id="search" placeholder="Filter addons..." aria-label="Search">
+                <div class="filters">
+                    <button class="btn btn-active" data-type="all">All</button>
+                    <button class="btn" data-type="official">Official</button>
+                    <button class="btn" data-type="community">Community</button>
+                </div>
+            </nav>
+
+            <main id="list">
+                <div style="text-align: center; padding: 2rem; color: var(--muted);">Loading addons...</div>
+            </main>
+
+            <footer>
+                <p style="text-align: center; font-size: 0.75rem;">Powered by <a href="https://github.com/features/actions">GitHub Actions</a></p>
+            </footer>
+        </div>
+
+        <template id="tmpl-addon">
+            <article class="addon-card">
+                <header class="card-header">
+                    <div>
+                        <span class="card-title"></span>
+                        <span class="badge"></span>
+                    </div>
+                    <span class="version"></span>
+                </header>
+                <div class="card-body">
+                    <p class="desc"></p>
+                    <p style="font-size: 0.75rem; margin-top: 0.5rem;">By <span class="authors"></span></p>
+                </div>
+                <footer class="card-actions">
+                    <a class="btn btn-primary dl">Download</a>
+                    <a class="btn src">GitHub</a>
+                    <a class="btn wiki">Docs</a>
+                </footer>
+            </article>
+        </template>
+
+        <script>
+            let addons = {};
+            let query = "";
+            let type = "all";
+
+            const $ = (s) => document.querySelector(s);
+            const getTmpl = (id) => $(id).content.cloneNode(true);
+
+            const render = () => {
+                const frag = document.createDocumentFragment();
+                let count = 0;
+
+                Object.entries(addons).forEach(([name, addon]) => {
+                    const isOfficial = (addon["direct-link"] || "").startsWith("https://ci.codemc.io/job/BetterGUI-MC/");
+                    const addonType = isOfficial ? "official" : "community";
+
+                    if (type !== "all" && type !== addonType) return;
+
+                    const authors = Array.isArray(addon.authors) ? addon.authors.join(", ") : (addon.authors || "Unknown");
+                    const desc = addon.description || "No description.";
+
+                    const match = name.toLowerCase().includes(query) ||
+                                  desc.toLowerCase().includes(query) ||
+                                  authors.toLowerCase().includes(query);
+
+                    if (query && !match) return;
+                    count++;
+
+                    const t = getTmpl("#tmpl-addon");
+                    t.querySelector(".card-title").textContent = name;
+                    t.querySelector(".version").textContent = `v${addon.version || "1.0"}`;
+                    t.querySelector(".desc").textContent = desc;
+                    t.querySelector(".authors").textContent = authors;
+
+                    const badge = t.querySelector(".badge");
+                    badge.textContent = isOfficial ? "Official" : "Community";
+                    badge.className = `badge badge-${addonType}`;
+
+                    const dl = t.querySelector(".dl");
+                    if (addon["direct-link"]) dl.href = addon["direct-link"]; else dl.remove();
+
+                    const src = t.querySelector(".src");
+                    if (addon["source-code"]) src.href = addon["source-code"]; else src.remove();
+
+                    const wiki = t.querySelector(".wiki");
+                    if (addon["wiki"]) wiki.href = addon["wiki"]; else wiki.remove();
+
+                    frag.appendChild(t);
+                });
+
+                if (count === 0) {
+                    $("#list").innerHTML = '<div style="text-align: center; padding: 2rem; color: var(--muted);">No addons found.</div>';
+                } else {
+                    $("#list").replaceChildren(frag);
+                }
+            };
+
+            const init = async () => {
+                $("#search").oninput = (e) => {
+                    query = e.target.value.toLowerCase().trim();
+                    render();
+                };
+
+                document.querySelectorAll(".filters button").forEach(btn => {
+                    btn.onclick = () => {
+                        document.querySelectorAll(".filters button").forEach(b => b.classList.remove("btn-active"));
+                        btn.classList.add("btn-active");
+                        type = btn.dataset.type;
+                        render();
+                    };
+                });
+
+                const res = await fetch("addons.json?t=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null);
+                if (!res) {
+                    $("#list").innerHTML = '<div style="text-align: center; padding: 2rem; color: var(--muted);">Failed to load addons registry.</div>';
+                    return;
+                }
+
+                addons = res;
+                render();
+            };
+
+            init();
+        </script>
+    </body>
+</html>

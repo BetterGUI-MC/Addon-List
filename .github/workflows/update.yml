@@ -1,26 +1,53 @@
 name: Update addons
 
-on: workflow_dispatch
+on:
+  schedule:
+    - cron: "0 6 * * *" # Daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v6
-      with:
-        python-version: "3.10"
-    - name: Build final file
-      run: python main.py
-    - name: Upload artifact
-      uses: actions/upload-artifact@v7
-      with:
-        name: addons
-        path: addons.json
-    - name: Commit
-      uses: EndBug/add-and-commit@v10
-      with:
-        default_author: github_actions
-        message: "Update addons"
-        add: addons.json
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: "false"
+
+      - name: Build final file
+        run: uv run main.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: addons
+          path: addons.json
+
+      - name: Commit addons.json to main branch
+        uses: EndBug/add-and-commit@v10
+        with:
+          default_author: github_actions
+          message: "Update addons"
+          add: addons.json
+
+      - name: Prepare staging directory for web dashboard
+        run: |
+          mkdir -p staging
+          cp index.html staging/
+          cp addons.json staging/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: staging
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v5
