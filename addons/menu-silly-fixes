@@ -1,0 +1,11 @@
+{
+  "name": "MenuSillyFixes",
+  "description": "Some silly/temporary fixes for some silly/temporary menu problems",
+  "author": [
+    "HSGamer"
+  ],
+  "code": "https://github.com/BetterGUI-MC/MenuSillyFixes/",
+  "wiki": "https://github.com/BetterGUI-MC/MenuSillyFixes/blob/master/README.md",
+  "type": "official",
+  "jenkins": "MenuSillyFixes"
+}
