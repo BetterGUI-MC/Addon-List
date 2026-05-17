@@ -220,7 +220,8 @@ async def process_all_addons(client: httpx.AsyncClient, properties_list: list[di
             name, values = result
             converted[name] = values
 
-    return converted
+    # Sort dictionary alphabetically by keys (addon names)
+    return dict(sorted(converted.items()))
 
 
 async def main():
