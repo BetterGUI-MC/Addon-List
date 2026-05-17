@@ -88,8 +88,8 @@ async def read_folder(path_str: str) -> list[dict]:
 async def fetch_from_official(client: httpx.AsyncClient, jenkins_name: str) -> tuple[str, str]:
     """Fetch version and download URL from Jenkins CI asynchronously.
 
-    Optimized to first try fetching the last successful build in a single network call.
-    Falls back to scanning recent builds sequentially if the direct method fails or has no artifact.
+    Queries only the last successful build in a single network call.
+    Raises JenkinsAPIError if the job has no successful build or valid shaded jar artifact.
 
     Args:
         client: httpx AsyncClient instance
@@ -102,8 +102,6 @@ async def fetch_from_official(client: httpx.AsyncClient, jenkins_name: str) -> t
         JenkinsAPIError: If unable to fetch or parse Jenkins data
     """
     quoted_name = quote(jenkins_name)
-    
-    # 1. OPTIMIZATION: Try fetching the last successful build directly in ONE call
     direct_url = f"https://ci.codemc.io/job/BetterGUI-MC/job/{quoted_name}/lastSuccessfulBuild/api/json?tree=artifacts[fileName,relativePath],url"
     print(f"Jenkins Direct URL: {direct_url}")
     
@@ -123,68 +121,21 @@ async def fetch_from_official(client: httpx.AsyncClient, jenkins_name: str) -> t
                     if matcher:
                         version = matcher.group(2)
                         artifact_url = f"{build_url}/artifact/{relative_path}"
-                        print(f"Found (Optimized): {file_name}")
+                        print(f"Found: {file_name}")
                         return version, artifact_url
+            
+            raise JenkinsAPIError(f"HTTP {response.status_code} or no valid shaded jar artifact found")
         except Exception as e:
-            print(f"Note: Direct method for {jenkins_name} failed: {e}. Falling back to builds scanning...", file=sys.stderr)
-
-    # 2. FALLBACK: Fetch builds list and scan recent ones
-    api_url = f"https://ci.codemc.io/job/BetterGUI-MC/job/{quoted_name}/api/json?tree=builds[url]"
-    print(f"Jenkins Fallback URL: {api_url}")
-
-    async with jenkins_semaphore:
-        try:
-            response = await client.get(api_url, timeout=15.0)
-            response.raise_for_status()
-            api_res = response.json()
-        except httpx.HTTPError as e:
-            raise JenkinsAPIError(f"Failed to fetch Jenkins API: {e}")
-        except json.JSONDecodeError as e:
-            raise JenkinsAPIError(f"Invalid JSON response from Jenkins: {e}")
-
-    build_urls = [build["url"] for build in api_res.get("builds", [])]
-
-    if not build_urls:
-        raise JenkinsAPIError("No builds found")
-
-    # Scan top 5 recent builds to avoid scanning forever
-    for build_url in build_urls[:5]:
-        normalized_build_url = build_url.rstrip("/")
-        build_api_url = (
-            f"{normalized_build_url}/api/json?tree=artifacts[fileName,relativePath]"
-        )
-        print(f"Build URL: {build_api_url}")
-
-        async with jenkins_semaphore:
-            try:
-                build_response = await client.get(build_api_url, timeout=15.0)
-                build_response.raise_for_status()
-                build_res = build_response.json()
-            except (httpx.HTTPError, json.JSONDecodeError) as e:
-                print(f"Warning: Failed to fetch build {build_url}: {e}", file=sys.stderr)
-                continue
-
-        artifacts = build_res.get("artifacts", [])
-
-        for artifact in artifacts:
-            file_name = artifact.get("fileName", "")
-            relative_path = artifact.get("relativePath", "")
-            matcher = ARTIFACT_PATTERN.search(file_name)
-
-            if matcher:
-                version = matcher.group(2)
-                artifact_url = f"{normalized_build_url}/artifact/{relative_path}"
-                print(f"Found: {file_name}")
-                return version, artifact_url
-
-    raise JenkinsAPIError("No valid artifact found in any build")
+            if isinstance(e, JenkinsAPIError):
+                raise
+            raise JenkinsAPIError(f"Request failed: {e}")
 
 
 async def convert(
     client: httpx.AsyncClient,
     properties: dict,
     file_extension: str = ".jar",
-) -> tuple[str, dict]:
+) -> tuple[str, dict] | None:
     """Convert properties to the output format asynchronously.
 
     Args:
@@ -193,7 +144,7 @@ async def convert(
         file_extension: File extension to append to the name
 
     Returns:
-        Tuple of (name, values_dict)
+        Tuple of (name, values_dict) or None if ignored
     """
     prop_name = properties.get("name", "Unknown")
     name = prop_name
@@ -212,18 +163,16 @@ async def convert(
     if prop_type == "official":
         jenkins_name = properties.get("jenkins")
         if not jenkins_name:
-            print(f"Warning: No Jenkins name specified for {name}", file=sys.stderr)
-            values["version"] = "unknown"
-            values["direct-link"] = ""
+            print(f"Warning: No Jenkins name specified for official addon {name}. Ignoring addon.", file=sys.stderr)
+            return None
         else:
             try:
                 version, download_link = await fetch_from_official(client, jenkins_name)
                 values["version"] = version
                 values["direct-link"] = download_link
             except JenkinsAPIError as e:
-                print(f"Error fetching from Jenkins for {name}: {e}", file=sys.stderr)
-                values["version"] = "unknown"
-                values["direct-link"] = ""
+                print(f"Warning: Failed to fetch successful build for official addon {name}: {e}. Ignoring addon.", file=sys.stderr)
+                return None
     else:
         values["version"] = properties.get("version", "unknown")
         values["direct-link"] = properties.get("download", "")
@@ -267,7 +216,7 @@ async def process_all_addons(client: httpx.AsyncClient, properties_list: list[di
     for result in results:
         if isinstance(result, Exception):
             print(f"Error converting addon: {result}", file=sys.stderr)
-        else:
+        elif result is not None:
             name, values = result
             converted[name] = values
 
