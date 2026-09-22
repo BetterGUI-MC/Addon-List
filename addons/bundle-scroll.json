@@ -1,0 +1,11 @@
+{
+  "name": "BundleScroll",
+  "description": "An addon for BetterGUI to implement bundle scrolling",
+  "author": [
+    "HSGamer"
+  ],
+  "code": "https://github.com/BetterGUI-MC/BundleScroll/",
+  "wiki": "https://bettergui-mc.github.io/Docs/addon/bundle-scroll.html",
+  "type": "official",
+  "jenkins": "BundleScroll"
+}
